@@ -1,0 +1,21 @@
+{
+    "name": "ilovejackylee/gold-karat-value",
+    "description": "Estimate gold melt and scrap value from karat, weight, and a 24K price per gram.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://mygoldcalc.com/scrap-gold-calculator",
+    "keywords": ["gold", "karat", "jewelry", "finance", "calculator"],
+    "authors": [
+        {
+            "name": "ilovejackylee"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoldKaratValue\\": "src/"
+        }
+    }
+}
