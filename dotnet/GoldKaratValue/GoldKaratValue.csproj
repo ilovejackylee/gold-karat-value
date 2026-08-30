@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>GoldKaratValue</RootNamespace>
+    <AssemblyName>GoldKaratValue</AssemblyName>
+    <PackageId>GoldKaratValue</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>ilovejackylee</Authors>
+    <Description>Estimate gold melt and scrap value from karat, weight, and a 24K price per gram.</Description>
+    <PackageTags>gold;karat;jewelry;finance;calculator</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://mygoldcalc.com/scrap-gold-calculator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ilovejackylee/gold-karat-value</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <IncludeSymbols>false</IncludeSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+    <None Include="LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
